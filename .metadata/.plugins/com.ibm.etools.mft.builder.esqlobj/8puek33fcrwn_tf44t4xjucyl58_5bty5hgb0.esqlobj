@@ -1,0 +1,29 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	    CREATE FIELD Environment.queue[] IDENTITY(JSON.Array) queue[];
+	    
+	    SET OutputRoot.JSON.Data.queue = Environment.queue[]
+		RETURN TRUE;
+	END;
+
+
+CREATE PROCEDURE enqueue()
+BEGIN
+END;
+
+CREATE PROCEDURE dequeue()
+BEGIN
+END;
+
+
+CREATE PROCEDURE isEmpty()
+BEGIN
+END;
+
+CREATE PROCEDURE isFull()
+BEGIN
+END;
+
+CREATE PROCEDURE peek()
+BEGIN
+END;

@@ -1,0 +1,8 @@
+CREATE PROCEDURE isFull() RETURNS BOOLEAN
+BEGIN
+	IF Environment.array.size = CARDINALITY(Environment.array.size.[]) THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;	
+END;

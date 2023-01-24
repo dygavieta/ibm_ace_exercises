@@ -1,0 +1,9 @@
+CREATE PROCEDURE peek() RETURNS CHARACTER
+BEGIN
+	CALL isEmpty() INTO Environment.isEmpty;
+	IF NOT Environment.isEmpty THEN
+		return Environment.queue.Item[1];
+	ELSE
+		SET OutputRoot.JSON.Data.message = 'Queue empty, nothing to peek';
+	END IF;
+END;

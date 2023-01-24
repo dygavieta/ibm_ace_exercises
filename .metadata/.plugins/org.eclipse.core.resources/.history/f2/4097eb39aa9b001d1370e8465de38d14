@@ -1,0 +1,61 @@
+
+
+CREATE COMPUTE MODULE postQueue_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		SET Environment.array.size = InputData.size;
+		
+	    CREATE FIELD Environment.queue IDENTITY(JSON.Array) queue;
+	    
+	    SET OutputRoot.JSON.Data.queue = Environment.queue;
+	    
+	    CALL enqueue(InputData.queuedItem);
+		RETURN TRUE;  
+	END;
+
+
+CREATE PROCEDURE enqueue(IN queuedItem CHARACTER)
+BEGIN
+	CALL isFull() INTO Environment.isFull;
+ 	
+ 	IF NOT Environment.isFull THEN
+ 		DECLARE index INT CARDINALITY(Environment.queue.[]);
+		SET Environment.queue.Item[index + 1] =  queuedItem;
+ 		SET OutputRoot.JSON.Data.message = 'SUCCESSFULLY';
+ 	ELSE
+ 		SET OutputRoot.JSON.Data.message = 'QUEUE IS FULL';
+ 	END IF;
+END;
+
+CREATE PROCEDURE dequeue()
+BEGIN
+END;
+
+
+CREATE PROCEDURE isEmpty() RETURNS BOOLEAN
+BEGIN
+	IF CARDINALITY(Environment.array.size.[]) = 0 THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;
+END;
+
+CREATE PROCEDURE isFull() RETURNS BOOLEAN
+BEGIN
+	IF Environment.array.size = CARDINALITY(Environment.array.size.[]) THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;	
+END;
+
+CREATE PROCEDURE peek() RETURNS CHARACTER
+BEGIN
+	CALL isEmpty() INTO Environment.isEmpty;
+	IF NOT Environment.isEmpty THEN
+		return Environment.queue.Item[1];
+	END IF;
+END;
+END MODULE;

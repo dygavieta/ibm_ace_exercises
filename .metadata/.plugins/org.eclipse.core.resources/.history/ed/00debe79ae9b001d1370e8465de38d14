@@ -1,0 +1,97 @@
+
+
+CREATE COMPUTE MODULE postQueue_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		SET Environment.array.size = InputData.size;
+		
+	    CREATE FIELD Environment.queue IDENTITY(JSON.Array) queue;
+	    IF Environment.array.size >= 3 THEN 
+	    	SET Environment.queue.Item[1] = 'Don';
+	    	SET Environment.queue.Item[2] = 'Michael';
+	    	SET Environment.queue.Item[3] = 'Czarina';
+	    END IF;
+	    
+	    SET OutputRoot.JSON.Data.mainQueue = Environment.queue;
+	    
+	    IF InputData.queuedItem IS NOT NULL AND InputData.process = 'enqueue' THEN
+	   		CALL enqueue(InputData.queuedItem);
+	    ELSEIF  InputData.process = 'dequeue' THEN
+	   		CALL dequeue() INTO OutputRoot.JSON.Data.dequeued;
+	    	CALL peek() INTO OutputRoot.JSON.Data.peek;
+	    ELSEIF  InputData.process = 'peek' THEN
+	    	CALL peek() INTO OutputRoot.JSON.Data.peek;
+	    END IF;
+	   
+	   	SET OutputRoot.JSON.Data.afterQueue = Environment.queue;
+		RETURN TRUE;  
+	END;
+
+
+CREATE PROCEDURE enqueue(IN queuedItem CHARACTER)
+BEGIN
+	CALL isFull() INTO Environment.isFull;
+ 	
+ 	IF NOT Environment.isFull THEN
+ 		DECLARE index INT CARDINALITY(Environment.queue.[]);
+		SET Environment.queue.Item[index + 1] =  queuedItem;
+ 		SET OutputRoot.JSON.Data.message = 'Queued Successfully';
+ 	ELSE
+ 		SET OutputRoot.JSON.Data.message = 'Queue is full, cant enqueue';
+ 	END IF;
+END;
+
+CREATE PROCEDURE dequeue() RETURNS CHARACTER
+BEGIN
+	CALL isEmpty() INTO Environment.isEmpty;
+	DECLARE index INT CARDINALITY(Environment.queue.[]);
+	IF NOT Environment.isEmpty THEN
+		DECLARE temp CHAR;
+		SET temp = Environment.queue.Item[1];
+		SET Environment.queue.Item[1] = null;
+
+-- 		ESQL DONT NEED THIS AUOTMATIC
+--		DECLARE i INT 1;
+--		WHILE i < index-1 DO
+--			SET Environment.queue.Item[i] = Environment.queue.Item[i+1];
+-- 			SET i = i + 1;
+--		END WHILE;
+		SET OutputRoot.JSON.Data.message = 'Dequeued Successfully';
+		return temp;
+	ELSE
+		SET OutputRoot.JSON.Data.message = 'Queue empty, nothing to dequeue';
+	END IF;
+	 		
+ 
+END;
+
+
+CREATE PROCEDURE isEmpty() RETURNS BOOLEAN
+BEGIN
+	IF CARDINALITY(Environment.queue.[]) = 0 THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;
+END;
+
+CREATE PROCEDURE isFull() RETURNS BOOLEAN
+BEGIN
+	IF Environment.array.size = CARDINALITY(Environment.queue.[]) THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;	
+END;
+
+CREATE PROCEDURE peek() RETURNS CHARACTER
+BEGIN
+	CALL isEmpty() INTO Environment.isEmpty;
+	IF Environment.isEmpty THEN
+		return Environment.queue.Item[1];
+	ELSE
+		SET OutputRoot.JSON.Data.message = 'Queue empty, nothing to peek';
+	END IF;
+END;
+END MODULE;

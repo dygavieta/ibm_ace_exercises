@@ -1,0 +1,28 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		SET Environment.array.size = InputData.size;
+		
+	    CREATE FIELD Environment.queue IDENTITY(JSON.Array) queue;
+	    
+	    SET OutputRoot.JSON.Data.queue = Environment.queue;
+	    
+	    CALL enqueue(InputData.queuedItem);
+		RETURN TRUE;  
+	END;
+
+
+CREATE PROCEDURE enqueue(IN queuedItem CHARACTER)
+BEGIN
+	CALL isFull() INTO Environment.isFull;
+ 	
+ 	IF NOT Environment.isFull THEN
+ 		DECLARE index INT CARDINALITY(Environment.queue.[]);
+		SET Environment.queue.Item[index + 1] =  queuedItem;
+ 		SET OutputRoot.JSON.Data.message = 'SUCCESSFULLY';
+ 	ELSE
+ 		SET OutputRoot.JSON.Data.message = 'QUEUE IS FULL';
+ 	END IF;
+END;
+
+CREATE PROCEDURE dequeue() RETURNS CHARACTER

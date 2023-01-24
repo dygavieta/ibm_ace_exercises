@@ -1,0 +1,8 @@
+CREATE PROCEDURE isEmpty() RETURNS BOOLEAN
+BEGIN
+	IF CARDINALITY(Environment.array.size.[]) = 0 THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;
+END;

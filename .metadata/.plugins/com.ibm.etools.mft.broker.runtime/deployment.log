@@ -195,3 +195,113 @@ BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deplo
 exercise>>>>TEST_SERVER>>SUCCESS>>1674455241594
 BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674455241594
 BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674455241594
+exercise>>>>TEST_SERVER>>WARNING>>1674535526671
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674535526671
+BIP2497E<<(.postQueue_Compute.Main, 5.10) : Illegal data type for target. A list field reference is required. <<1674535526671
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674535526671
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674535526671
+exercise>>>>TEST_SERVER>>WARNING>>1674535543222
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674535543222
+BIP2497E<<(.postQueue_Compute.Main, 5.10) : Illegal data type for target. A list field reference is required. <<1674535543222
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674535543222
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674535543222
+exercise>>>>TEST_SERVER>>WARNING>>1674535551011
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674535551011
+BIP2497E<<(.postQueue_Compute.Main, 5.10) : Illegal data type for target. A list field reference is required. <<1674535551011
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674535551011
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674535551011
+exercise>>>>TEST_SERVER>>SUCCESS>>1674535558859
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674535558859
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674535558859
+exercise>>>>TEST_SERVER>>SUCCESS>>1674537550065
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674537550065
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674537550065
+exercise>>>>TEST_SERVER>>SUCCESS>>1674537574983
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674537574983
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674537574983
+exercise>>>>TEST_SERVER>>WARNING>>1674537586768
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674537586768
+BIP2497E<<(.postQueue_Compute.Main, 5.10) : Illegal data type for target. A list field reference is required. <<1674537586768
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674537586768
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674537586768
+exercise>>>>TEST_SERVER>>SUCCESS>>1674537601498
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674537601498
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674537601498
+exercise>>>>TEST_SERVER>>SUCCESS>>1674537615055
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674537615055
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674537615055
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539374812
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539374812
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539374812
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539452978
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539452978
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539452978
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539548182
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539548182
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539548182
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539674315
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539674315
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539674315
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539895646
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539895646
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539895646
+exercise>>>>TEST_SERVER>>SUCCESS>>1674539970634
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674539970634
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674539970634
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540090173
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540090173
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540090173
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540127366
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540127366
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540127366
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540169382
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540169382
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540169382
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540219537
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540219537
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540219537
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540254720
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540254720
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540254720
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540290468
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540290468
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540290468
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540310430
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540310430
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540310430
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540378977
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540378977
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540378977
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540410034
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540410034
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540410034
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540498786
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540498786
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540498786
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540537161
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540537161
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540537161
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540581269
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540581269
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540581269
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540610147
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540610147
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540610147
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540637462
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540637462
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540637462
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540788759
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540788759
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540788759
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540809197
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540809197
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540809197
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540877340
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540877340
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540877340
+exercise>>>>TEST_SERVER>>SUCCESS>>1674540921303
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674540921303
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674540921303
+exercise>>>>TEST_SERVER>>SUCCESS>>1674541086302
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674541086302
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674541086302

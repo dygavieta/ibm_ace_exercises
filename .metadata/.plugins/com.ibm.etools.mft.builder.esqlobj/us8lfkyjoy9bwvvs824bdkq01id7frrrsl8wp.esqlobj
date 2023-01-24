@@ -1,0 +1,44 @@
+CREATE COMPUTE MODULE postQueue_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		SET Environment.array.size = InputData.size;
+		
+	    CREATE FIELD Environment.queue IDENTITY(JSON.Array) queue;
+	    
+	    SET OutputRoot.JSON.Data.queue = Environment.queue;
+		RETURN TRUE;
+	END;
+
+
+CREATE PROCEDURE enqueue()
+BEGIN
+END;
+
+CREATE PROCEDURE dequeue()
+BEGIN
+END;
+
+
+CREATE PROCEDURE isEmpty() RETURNS BOOLEAN
+BEGIN
+	IF CARDINALITY(Environment.array.size.[]) = 0 THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;
+END;
+
+CREATE PROCEDURE isFull() RETURNS BOOLEAN
+BEGIN
+	IF Environment.array.size = CARDINALITY(Environment.array.size.[]) THEN
+		return TRUE;
+	ELSE
+		return FALSE;
+	END IF;	
+END;
+
+CREATE PROCEDURE peek()
+BEGIN
+END;
+END MODULE;
