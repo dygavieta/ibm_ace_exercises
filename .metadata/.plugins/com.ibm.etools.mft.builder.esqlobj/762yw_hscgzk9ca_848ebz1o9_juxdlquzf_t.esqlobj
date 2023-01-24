@@ -1,0 +1,20 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		RETURN TRUE;
+	END;
+
+	 
+	CREATE PROCEDURE pop()
+	BEGIN 
+	END;
+	
+	CREATE PROCEDURE push()
+	BEGIN 
+	END;
+	
+	CREATE PROCEDURE isEmpty()
+	BEGIN 
+	END;
+	
+	

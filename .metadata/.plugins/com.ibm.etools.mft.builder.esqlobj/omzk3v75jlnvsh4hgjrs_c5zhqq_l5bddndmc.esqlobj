@@ -1,0 +1,44 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		CREATE FIELD OutputRoot.JSON.Data.array IDENTITY(JSON.Array) array;
+
+		SET Environment.array = InputRoot.JSON.Data.numbers;
+		CALL bubbleSort(CARDINALITY(Environment.array.[]));
+
+		DECLARE i INTEGER 1;
+		WHILE i <= CARDINALITY(Environment.array.[]) DO
+			SET OutputRoot.JSON.Data.array.Item[i] = Environment.array.Item[i];
+			SET i = i + 1;
+		END WHILE;
+		RETURN TRUE;
+	END;
+
+CREATE PROCEDURE bubbleSort(IN n INTEGER)
+	BEGIN
+
+		DECLARE i INTEGER 0;
+		DECLARE j INTEGER;
+		X: LOOP
+			IF i < n-1 THEN
+				SET j = 0;
+				Y:LOOP
+					IF j < n-i-1 THEN
+						IF Environment.array.Item[j+1] > Environment.array.Item[j+2] THEN
+							DECLARE temp CHARACTER Environment.array.Item[j+1];
+							SET Environment.array.Item[j+1] = Environment.array.Item[j+2];
+							SET Environment.array.Item[j+2] = temp;
+						END IF;
+						SET j = j + 1;
+					ELSE
+						SET i = i + 1;
+						LEAVE Y;
+					END IF;
+				END LOOP Y;
+			ELSE
+				LEAVE X;
+			END IF;
+		END LOOP X;
+END;
+
+CREATE PROCEDURE selectionSort(IN n INTEGER)
+

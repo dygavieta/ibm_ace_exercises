@@ -1,0 +1,11 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN  
+		CREATE FIELD OutputRoot.JSON.Data.array IDENTITY(JSON.Array) array;
+		
+		SET Environment.array  = InputRoot.JSON.Data.numbers;
+		DECLARE length INTEGER CARDINALITY(Environment.array.[]);
+		CALL bubbleSort(a);
+		RETURN TRUE;
+	END;
+	
+	CREATE PROCEDURE bubbleSort(IN length INTEGER)

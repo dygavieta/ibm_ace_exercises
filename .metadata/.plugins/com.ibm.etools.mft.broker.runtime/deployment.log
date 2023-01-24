@@ -1,0 +1,197 @@
+exercise>>>>TEST_SERVER>>SUCCESS>>1673840263729
+BIP9332I<<RestAPI 'exercise' has been created successfully. <<1673840263729
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673840263729
+exercise>>>>TEST_SERVER>>SUCCESS>>1673840786945
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673840786945
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673840786945
+exercise>>>>TEST_SERVER>>SUCCESS>>1673841728044
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673841728044
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673841728044
+exercise>>>>TEST_SERVER>>SUCCESS>>1673841773179
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673841773179
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673841773179
+exercise>>>>TEST_SERVER>>SUCCESS>>1673842764045
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673842764045
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673842764045
+exercise>>>>TEST_SERVER>>SUCCESS>>1673842867498
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673842867498
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673842867498
+exercise>>>>TEST_SERVER>>SUCCESS>>1673843299918
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673843299918
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673843299918
+exercise>>>>TEST_SERVER>>SUCCESS>>1673843674765
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673843674765
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673843674765
+exercise>>>>TEST_SERVER>>WARNING>>1673843914010
+BIP4125E<<Failed to load ESQL file 'C:/Users/Despaired/IBM/ACET11/TEST_SERVER/run/exercise/postSorting_Compute.esql'. <<1673843914010
+BIP2402E<<(.postSorting_Compute.bubbleSort, 17.13) : Syntax error : ';'. <<1673843914010
+BIP9320E<<Message Flow 'gen.exercise', 'gen.exercise' encountered a failure and could not start. <<1673843914010
+BIP4001E<<Syntax error in SQL statements in node '{0}'. <<1673843914010
+BIP4127E<<Failed to find ESQL module 'postSorting_Compute'. <<1673843914010
+BIP9333W<<RestAPI 'exercise' has been created but contains errors which has prevented some resources from starting. <<1673843914010
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1673843914010
+exercise>>>>TEST_SERVER>>SUCCESS>>1673843949944
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673843949944
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673843949944
+exercise>>>>TEST_SERVER>>SUCCESS>>1673844173576
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673844173576
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673844173576
+exercise>>>>TEST_SERVER>>SUCCESS>>1673844441264
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673844441264
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673844441264
+exercise>>>>TEST_SERVER>>SUCCESS>>1673844575941
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673844575941
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673844575941
+exercise>>>>TEST_SERVER>>SUCCESS>>1673845206548
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673845206548
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673845206548
+exercise>>>>TEST_SERVER>>SUCCESS>>1673845212065
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673845212065
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673845212065
+exercise>>>>TEST_SERVER>>ERROR>>1673845373153
+BIP2242E<<Message flow 'gen.exercise' could not be reconfigured because it remained busy for longer than the timeout period of '300000' <<1673845373153
+BIP2242E<<Message flow 'gen.exercise' could not be reconfigured because it remained busy for longer than the timeout period of '300000' <<1673845373153
+BIP9325E<<The source 'exerciseproject.generated.bar' could not be deployed as it contains errors. No changes have been made to the integration server. <<1673845373153
+BIP2242E<<Message flow 'gen.exercise' could not be reconfigured because it remained busy for longer than the timeout period of '300000' <<1673845373153
+exercise>>>>TEST_SERVER>>SUCCESS>>1673848501041
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673848501041
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673848501041
+exercise>>>>TEST_SERVER>>SUCCESS>>1673848673417
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673848673417
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673848673417
+exercise>>>>TEST_SERVER>>SUCCESS>>1673849052391
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673849052391
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673849052391
+exercise>>>>TEST_SERVER>>SUCCESS>>1673850900105
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673850900105
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673850900105
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851047694
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851047694
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851047694
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851327476
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851327476
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851327476
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851459130
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851459130
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851459130
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851468338
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851468338
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851468338
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851767582
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851767582
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851767582
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851896525
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851896525
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851896525
+exercise>>>>TEST_SERVER>>SUCCESS>>1673851935088
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673851935088
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673851935088
+exercise>>>>TEST_SERVER>>SUCCESS>>1673852002848
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673852002848
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673852002848
+FT_FundTransfer.v1.1.10.bar>>>>TEST_SERVER>>WARNING>>1673928220613
+BIP1239E<<Application 'FT_FundTransfer' references shared library 'ApiClient', which is not deployed to the integration server. <<1673928220613
+BIP1360E<<Message flow node 'branchCode_transactionsPostingStatus_withLogging', 'updateStatusOfTransaction#FCMComposite_1_1' in message flow 'updateStatusOfTransaction' in RestAPI 'FT_FundTransfer' requires subflow 'CustomCoreAPIs/branchCode_transactionsPostingStatus_withLogging.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'branchCode_transactionsPostingStatus_withLogging', 'updateStatusOfTransaction#FCMComposite_1_1' in message flow 'updateStatusOfTransaction' in RestAPI 'FT_FundTransfer' requires subflow 'CustomCoreAPIs/branchCode_transactionsPostingStatus_withLogging.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T973', 'postTransactionToSystematics#FCMComposite_1_1' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T973.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T976', 'postTransactionToSystematics#FCMComposite_1_2' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T976.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T226', 'postTransactionToSystematics#FCMComposite_1_3' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T226.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T126', 'postTransactionToSystematics#FCMComposite_1_4' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T126.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T973', 'postTransactionToSystematics#FCMComposite_1_1' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T973.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T976', 'postTransactionToSystematics#FCMComposite_1_2' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T976.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T226', 'postTransactionToSystematics#FCMComposite_1_3' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T226.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T126', 'postTransactionToSystematics#FCMComposite_1_4' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T126.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T973', 'postTransactionToSystematics#FCMComposite_1_1' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T973.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T976', 'postTransactionToSystematics#FCMComposite_1_2' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T976.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T226', 'postTransactionToSystematics#FCMComposite_1_3' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T226.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T126', 'postTransactionToSystematics#FCMComposite_1_4' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T126.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'ApiClientInitWithLogging', 'postFundtransfer#FCMComposite_1_1' in message flow 'postFundtransfer' in RestAPI 'FT_FundTransfer' requires subflow 'ApiClientCommon/ApiClientInitWithLogging.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'branchCode_transactionsPostingStatus_withLogging', 'updateStatusOfTransaction#FCMComposite_1_1' in message flow 'updateStatusOfTransaction' in RestAPI 'FT_FundTransfer' requires subflow 'CustomCoreAPIs/branchCode_transactionsPostingStatus_withLogging.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T973', 'postTransactionToSystematics#FCMComposite_1_1' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T973.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T976', 'postTransactionToSystematics#FCMComposite_1_2' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T976.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T226', 'postTransactionToSystematics#FCMComposite_1_3' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T226.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'T126', 'postTransactionToSystematics#FCMComposite_1_4' in message flow 'postTransactionToSystematics' in RestAPI 'FT_FundTransfer' requires subflow 'SystematicsAPIs/T126.subflow' which is not deployed. <<1673928220613
+BIP1360E<<Message flow node 'ApiClientInitWithLogging', 'postFundtransfer#FCMComposite_1_1' in message flow 'postFundtransfer' in RestAPI 'FT_FundTransfer' requires subflow 'ApiClientCommon/ApiClientInitWithLogging.subflow' which is not deployed. <<1673928220613
+BIP1096E<<The source 'FT_FundTransfer.v1.1.10.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1673928220613
+exercise>>>>TEST_SERVER>>SUCCESS>>1673930078110
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673930078110
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673930078110
+exercise>>>>TEST_SERVER>>SUCCESS>>1673930424781
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673930424781
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673930424781
+exercise>>>>TEST_SERVER>>SUCCESS>>1673930629034
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673930629034
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673930629034
+exercise>>>>TEST_SERVER>>SUCCESS>>1673930656153
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673930656153
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673930656153
+exercise>>>>TEST_SERVER>>SUCCESS>>1673930709957
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1673930709957
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1673930709957
+exercise>>>>TEST_SERVER>>WARNING>>1674451912052
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674451912052
+BIP2432E<<(.postStack_Compute.Main, 3.16) : The correlation name 'stack' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList. <<1674451912052
+BIP9333W<<RestAPI 'exercise' has been created but contains errors which has prevented some resources from starting. <<1674451912052
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674451912052
+exercise>>>>TEST_SERVER>>SUCCESS>>1674451942929
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674451942929
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674451942929
+exercise>>>>TEST_SERVER>>SUCCESS>>1674451986605
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674451986605
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674451986605
+exercise>>>>TEST_SERVER>>SUCCESS>>1674452809886
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674452809886
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674452809886
+exercise>>>>TEST_SERVER>>SUCCESS>>1674452875635
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674452875635
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674452875635
+exercise>>>>TEST_SERVER>>WARNING>>1674453797084
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674453797084
+BIP2493E<<(.postStack_Compute.pop, 7.22) : Illegal type for parameter '1' of the function 'CARDINALITY'. A list is required. <<1674453797084
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674453797084
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674453797084
+exercise>>>>TEST_SERVER>>SUCCESS>>1674453835710
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674453835710
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674453835710
+exercise>>>>TEST_SERVER>>SUCCESS>>1674453965173
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674453965173
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674453965173
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454005608
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454005608
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454005608
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454092164
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454092164
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454092164
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454120194
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454120194
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454120194
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454524452
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454524452
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454524452
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454587145
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454587145
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454587145
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454704903
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454704903
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454704903
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454781433
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454781433
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454781433
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454803763
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454803763
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454803763
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454901554
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454901554
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454901554
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454949680
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454949680
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454949680
+exercise>>>>TEST_SERVER>>SUCCESS>>1674454971603
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674454971603
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674454971603
+exercise>>>>TEST_SERVER>>SUCCESS>>1674455174917
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674455174917
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674455174917
+exercise>>>>TEST_SERVER>>SUCCESS>>1674455241594
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674455241594
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674455241594

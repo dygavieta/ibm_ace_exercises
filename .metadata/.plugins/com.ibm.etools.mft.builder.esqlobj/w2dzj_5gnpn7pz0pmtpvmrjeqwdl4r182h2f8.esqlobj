@@ -1,0 +1,7 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		REFERENCE InputData = InputRoot.JSON.Data;
+		CREATE FIELD Environment.stack  IDENTITY(JSON.Array) stack;
+		
+		SET OutputRoot.JSON.Data.stack = Environment.stack;
+		RETURN TRUE;

@@ -1,0 +1,61 @@
+CREATE COMPUTE MODULE postStack_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+--		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		CREATE FIELD Environment.stack  IDENTITY(JSON.Array) stack;
+		SET Environment.stack.Item[1] = 'Dog';
+		SET Environment.stack.Item[2] = 'Cat';
+		SET Environment.stack.Item[3] = 'Cow';
+		SET OutputRoot.JSON.Data.stackBefore = Environment.stack;
+		
+		CALL pop() INTO OutputRoot.JSON.Data.popped;
+		SET OutputRoot.JSON.Data.stackAfter = Environment.stack;
+		
+		DECLARE toPush CHARACTER COALESCE(InputRoot.JSON.Data.toPush, '');
+		CALL push(toPush);
+		RETURN TRUE;
+	END;
+
+	 
+	CREATE PROCEDURE pop() RETURNS CHARACTER
+	BEGIN 
+		DECLARE isEmpty BOOLEAN;
+		CALL isEmpty() INTO isEmpty;
+		
+		IF isEmpty <> TRUE THEN
+			DECLARE index INT CARDINALITY(Environment.stack.[]);
+			DECLARE temp CHARACTER;
+			
+			SET temp = Environment.stack.Item[index];
+			SET Environment.stack.Item[index] = null;
+			return temp;
+		END IF;
+		
+	END;
+	
+	CREATE PROCEDURE push(IN pushed CHARACTER)
+	BEGIN 
+		DECLARE isEmpty BOOLEAN;
+		CALL isEmpty() INTO isEmpty;
+		
+		IF isEmpty <> TRUE THEN
+			DECLARE index INT CARDINALITY(Environment.stack.[]); 
+			SET Environment.stack.Item[index + 1] = COALESCE(pushed, '');
+			
+		ELSE
+			SET Environment.stack.Item[1] = InputRoot.JSON.Data.toPush;
+		END IF;
+		
+	END;
+	
+	CREATE PROCEDURE isEmpty() RETURNS BOOLEAN
+	BEGIN 
+		IF CARDINALITY(Environment.stack.[]) > 0 THEN
+			return FALSE;
+		END IF; 
+		
+		return TRUE;
+	END;
+	
+	
+END MODULE;

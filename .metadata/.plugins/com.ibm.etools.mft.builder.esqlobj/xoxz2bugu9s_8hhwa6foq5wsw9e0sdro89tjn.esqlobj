@@ -1,0 +1,22 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		CREATE FIELD LocalEnvironment.stack  IDENTITY(JSON.Array) stack;
+		
+		SET OutputRoot.JSON.Data.stack = stack;
+		RETURN TRUE;
+	END;
+
+	 
+	CREATE PROCEDURE pop()
+	BEGIN 
+	END;
+	
+	CREATE PROCEDURE push()
+	BEGIN 
+	END;
+	
+	CREATE PROCEDURE isEmpty()
+	BEGIN 
+	END;
+	
+	

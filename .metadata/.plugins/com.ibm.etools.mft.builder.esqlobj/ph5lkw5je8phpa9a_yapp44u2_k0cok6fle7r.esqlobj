@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN  
+		CREATE FIELD OutputRoot.JSON.Data.array IDENTIY(JSON.Array) array;
+		
+		SET Environment.array  = InputRoot.JSON.Data.numbers;
+		
+		RETURN TRUE;
+	END;
+
+	 

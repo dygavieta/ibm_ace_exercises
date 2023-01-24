@@ -1,0 +1,8 @@
+CREATE COMPUTE MODULE postStack_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		REFERENCE InputData = InputRoot.JSON.Data;
+		CREATE FIELD Environment.stack  IDENTITY(JSON.Array) stack;
+		
+		SET OutputRoot.JSON.Data.stack = Environment.stack;
+		RETURN TRUE;
