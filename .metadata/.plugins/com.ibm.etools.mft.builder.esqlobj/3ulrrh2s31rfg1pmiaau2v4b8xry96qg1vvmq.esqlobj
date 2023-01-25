@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN 
+		SET X=FIELDNAME(InputBody.*[<]);
+
+		SET OutputRoot.JSON.Data.x = X;
+		RETURN TRUE;
+	END;
+
+	 

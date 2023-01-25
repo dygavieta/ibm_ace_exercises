@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN 
+	 
+		DECLARE InputBody REFERENCE TO InputRoot.JSON.Data;
+		SET OutputRoot.JSON.Data.x = FIELDNAME(InputBody.*[2]);
+		RETURN TRUE;
+	END;
+
+	 

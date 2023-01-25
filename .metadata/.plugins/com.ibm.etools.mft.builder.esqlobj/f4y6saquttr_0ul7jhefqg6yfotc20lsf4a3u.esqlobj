@@ -1,0 +1,8 @@
+CREATE COMPUTE MODULE postCase_reSize
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	 	SET Environment.tshirt.size = 42;
+		RETURN TRUE;
+	END;
+ 
+END MODULE;

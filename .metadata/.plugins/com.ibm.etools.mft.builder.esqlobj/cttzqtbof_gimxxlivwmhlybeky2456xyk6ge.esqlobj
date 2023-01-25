@@ -1,0 +1,16 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE tshirtSize CHAR;
+		CASE
+		WHEN Environment.tshirt.size > 25 THEN
+			SET tshirtSize = 'KIDDIE SIZE';
+		WHEN Environment.tshirt.size > 18 THEN
+			SET tshirtSize = 'BABY SIZE';
+		ELSE
+			SET tshirtSize = 'UNKNOWN';
+		END CASE;
+		
+		SET OutputRoot.JSON.Data.tshirt.size = tshirtSize;
+		RETURN TRUE;
+	END;
+

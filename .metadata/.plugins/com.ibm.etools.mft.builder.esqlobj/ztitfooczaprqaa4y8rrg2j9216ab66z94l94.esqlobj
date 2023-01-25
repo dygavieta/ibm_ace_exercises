@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	 	CASE Environment.tshirt.size
+	 		WHEN 52
+	 	END CASE;
+		RETURN TRUE;
+	END;
+
+	 

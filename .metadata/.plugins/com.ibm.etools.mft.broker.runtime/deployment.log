@@ -305,3 +305,79 @@ BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deplo
 exercise>>>>TEST_SERVER>>SUCCESS>>1674541086302
 BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674541086302
 BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674541086302
+exercise>>>>TEST_SERVER>>WARNING>>1674620229585
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674620229585
+BIP2432E<<(.postTest_Compute.Main, 3.7) : The correlation name 'X' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList. <<1674620229585
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674620229585
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674620229585
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620273811
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620273811
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620273811
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620364809
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620364809
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620364809
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620388847
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620388847
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620388847
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620434166
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620434166
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620434166
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620469365
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620469365
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620469365
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620484820
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620484820
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620484820
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620499076
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620499076
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620499076
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620510610
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620510610
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620510610
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620640309
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620640309
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620640309
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620676782
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620676782
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620676782
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620725173
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620725173
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620725173
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620747771
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620747771
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620747771
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620775594
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620775594
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620775594
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620826247
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620826247
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620826247
+exercise>>>>TEST_SERVER>>SUCCESS>>1674620838815
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674620838815
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674620838815
+exercise>>>>TEST_SERVER>>WARNING>>1674621742235
+BIP9318E<<Request to 'PreSetupValidate' resource 'exercise', 'exercise' of type 'RestAPI' failed. <<1674621742235
+BIP2432E<<(.postCase_Filter.Main, 3.6) : The correlation name 'InputRoot.JSON.Data.size' is not valid. Those in scope are: Environment, LocalEnvironment, Root, Body, Properties, ExceptionList, DestinationList. <<1674621742235
+BIP9333W<<RestAPI 'exercise' has been changed but contains errors which has prevented some resources from starting. <<1674621742235
+BIP1096E<<The source 'exerciseproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1674621742235
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624409761
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624409761
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624409761
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624712287
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624712287
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624712287
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624736692
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624736692
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624736692
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624945173
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624945173
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624945173
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624987401
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624987401
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624987401
+exercise>>>>TEST_SERVER>>SUCCESS>>1674624997176
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674624997176
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674624997176
+exercise>>>>TEST_SERVER>>SUCCESS>>1674625085758
+BIP9332I<<RestAPI 'exercise' has been changed successfully. <<1674625085758
+BIP9326I<<The source 'exerciseproject.generated.bar' has been successfully deployed. <<1674625085758

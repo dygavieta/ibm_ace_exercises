@@ -1,0 +1,22 @@
+
+
+CREATE COMPUTE MODULE postCase_getSize
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE shirtSize CHAR;
+		CASE Environment.tshirt.size
+		WHEN 52 THEN
+			SET shirtSize = 'LARGE';
+		WHEN 42 THEN
+			SET shirtSize = 'MEDIUM';
+		WHEN 32 THEN
+			SET shirtSize = 'SMALL';
+		END CASE;
+		
+		
+		SET OutputRoot.JSON.Data.tshirt.size = shirtSize;
+		RETURN TRUE;
+	END;	 
+
+
+END MODULE;

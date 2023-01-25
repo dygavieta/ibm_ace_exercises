@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:restapiDescriptor xmlns="http://com.ibm.etools.mft.descriptor.base" xmlns:ns2="http://com.ibm.etools.mft.descriptor.restapi" definitionType="swagger_20" definitionFile="swagger.json" implementation="gen/exercise.msgflow" https="false">
     <ns2:operations>
+        <ns2:operation name="postCase" implementation="postCase.subflow"/>
         <ns2:operation name="postQueue" implementation="postQueue.subflow"/>
         <ns2:operation name="postSorting" implementation="postSorting.subflow"/>
         <ns2:operation name="postStack" implementation="postStack.subflow"/>

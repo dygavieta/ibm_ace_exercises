@@ -1,0 +1,13 @@
+
+
+CREATE COMPUTE MODULE postTest_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN 
+	 
+
+		SET OutputRoot.JSON.Data.x =FIELDNAME(InputBody.*[<]);
+		RETURN TRUE;
+	END;
+
+	 
+END MODULE;

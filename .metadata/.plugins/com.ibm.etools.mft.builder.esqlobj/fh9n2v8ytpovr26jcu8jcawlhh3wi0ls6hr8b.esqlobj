@@ -1,0 +1,12 @@
+CREATE FILTER MODULE postCase_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		IF Environment.tshirt.size >= 36  THEN
+			 	SET OutputRoot.JSON.Data.tshirt.size = Environment.tshirt.size;
+			RETURN TRUE;
+		ELSE
+			RETURN FALSE;
+		END IF;
+	END;
+
+END MODULE;

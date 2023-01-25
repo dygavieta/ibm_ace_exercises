@@ -1,0 +1,13 @@
+
+
+CREATE COMPUTE MODULE postCase_getSize
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	 	CASE Environment.tshirt.size
+	 		WHEN 52
+	 	END CASE;
+		RETURN TRUE;
+	END;
+
+	 
+END MODULE;

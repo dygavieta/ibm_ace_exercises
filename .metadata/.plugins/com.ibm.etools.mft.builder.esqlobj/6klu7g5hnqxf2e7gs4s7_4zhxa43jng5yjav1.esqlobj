@@ -1,0 +1,6 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	 	SET Environment.tshirt.size = InputRoot.JSON.Data.tshirt.size;
+		RETURN TRUE;
+	END;
+

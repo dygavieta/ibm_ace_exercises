@@ -1,0 +1,11 @@
+
+
+CREATE FILTER MODULE postCase_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		IF InputRoot.JSON.Data.size = 52
+			RETURN TRUE;
+		END IF;
+	END;
+
+END MODULE;

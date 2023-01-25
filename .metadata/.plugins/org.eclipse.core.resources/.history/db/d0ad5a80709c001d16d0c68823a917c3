@@ -1,0 +1,12 @@
+
+
+CREATE COMPUTE MODULE postCase_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	 	SET Environment.tshirt.size = InputRoot.JSON.Data.tshirt.size;
+		RETURN TRUE;
+	END;
+
+	 
+	END;
+END MODULE;

@@ -1,0 +1,13 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE shirtSize CHAR;
+		CASE Environment.tshirt.size
+		WHEN 52 THEN
+			SET shirtSize = 'LARGE';
+		WHEN 42 THEN
+			SET shirtSize = 'MEDIUM';
+		END CASE;
+		RETURN TRUE;
+	END;	 
+
+

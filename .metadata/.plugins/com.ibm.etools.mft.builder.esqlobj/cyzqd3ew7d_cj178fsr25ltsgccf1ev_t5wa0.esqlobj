@@ -1,0 +1,7 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		IF Environment.tshirt.size	 = 52  THEN
+			RETURN TRUE;
+		END IF;
+	END;
+
