@@ -1,0 +1,8 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		IF SUBSTRING(InputData.mobileNumber, FROM 0 TO 2);
+ 		RETURN TRUE;
+	END;
+
+	 

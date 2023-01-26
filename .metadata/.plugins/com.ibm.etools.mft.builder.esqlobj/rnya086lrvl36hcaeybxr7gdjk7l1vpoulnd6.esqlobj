@@ -1,0 +1,13 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		IF SUBSTRING(InputData.mobileNumber  FROM 0 FOR 2) = '09' THEN
+		
+		ELSE IF STARTSWITH(InputData.mobileNumber, '+63') THEN
+			
+			
+		END IF;
+ 		RETURN TRUE;
+	END;
+
+	 

@@ -1,0 +1,15 @@
+CREATE COMPUTE MODULE postFlowOrder_getNumber
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		IF SUBSTRING(InputData.mobileNumber  FROM 0 FOR 2) = '09' THEN
+			SET Environment.mobileNumber = InputData.mobileNumber;
+		ELSEIF STARTSWITH(InputData.mobileNumber, '+63') THEN
+			SET Environment.mobileNumber = InputData.mobileNumber;
+			
+		END IF;
+ 		RETURN TRUE;
+	END;
+
+	 
+END MODULE;

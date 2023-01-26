@@ -1,0 +1,14 @@
+CREATE COMPUTE MODULE postFlowOrder_getBalance
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		IF Environment.mobileNumber = '09498182946' THEN
+			SET OutputRoot.JSON.Data.mobileName = 'Don Michael Gavieta';
+		ELSE
+			SET OutputRoot.JSON.Data.mobileName = 'Don Michael Gavieta';
+		END IF;
+	 	SET OutputRoot.JSON.Data.mobileNumber = Environment.mobileNumber;
+		RETURN TRUE;
+	END;
+
+	 
+END MODULE;

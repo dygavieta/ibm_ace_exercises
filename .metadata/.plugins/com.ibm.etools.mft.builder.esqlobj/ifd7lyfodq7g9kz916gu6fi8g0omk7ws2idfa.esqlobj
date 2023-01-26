@@ -1,0 +1,12 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		IF Environment.mobileNumber = '09498182946' THEN
+			SET OutputRoot.JSON.Data.mobileName = 'Don Michael Gavieta';
+		ELSE
+			SET OutputRoot.JSON.Data.mobileName = 'Unknown User';
+		END IF;
+	 	SET OutputRoot.JSON.Data.mobileNumber = Environment.mobileNumber;
+		RETURN TRUE;
+	END;
+
+	 

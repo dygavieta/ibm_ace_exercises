@@ -1,0 +1,13 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE InputData REFERENCE TO InputRoot.JSON.Data;
+		IF SUBSTRING(InputData.mobileNumber  FROM 1 FOR 2) = '09' AND LENGTH(InputData.mobileNumber) = 11 THEN
+			SET Environment.mobileNumber = InputData.mobileNumber;
+		ELSEIF STARTSWITH(InputData.mobileNumber, '+63') AND LENGTH(InputData.mobileNumber) = 13 THEN
+			SET Environment.mobileNumber = REPLACE(InputData.mobileNumber, '+63', '0');
+		ELSE	
+ 			RETURN TRUE;
+		END IF;
+	END;
+
+	 
